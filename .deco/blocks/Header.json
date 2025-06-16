@@ -1,1 +1,29 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Quem sou eu",
+        "url": "/sobre"
+      },
+      {
+        "label": "Especialidades",
+        "url": "/especialidades"
+      },
+      {
+        "label": "Blog",
+        "url": "/blog"
+      }
+    ],
+    "buttons": [
+      {
+        "href": "/contato",
+        "text": "Contato",
+        "outline": false
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://assets.decocache.com/medico-celso/a563219c-752f-4c6c-bb77-2cb54a28b0e2/image-167-Photoroom-1.png"
+  }
+}

@@ -24,23 +24,8 @@ export interface Nav {
 }
 
 export default function Header({
-  logo = {
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
-    alt: "Logo",
-  },
-  navigation = {
-    links: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
-    ],
-    buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
-    ],
-  },
+  logo,
+  navigation,
 }: Nav) {
   return (
     <nav class="drawer drawer-end">
@@ -49,17 +34,17 @@ export default function Header({
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <Image class="w-full h-auto max-w-[225px]" src={logo?.src || ""} width={100} height={28} alt={logo?.alt} />
         </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
+        <div class="hidden items-center justify-center gap-16 lg:flex">
           <ul class="flex">
-            {navigation.links.map((link) => (
+            {navigation?.links.map((link) => (
               <li>
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline hover:underline p-4 uppercase"
                 >
                   {link.label}
                 </a>
@@ -67,13 +52,13 @@ export default function Header({
             ))}
           </ul>
           <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
+            {navigation?.buttons?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
+                class={`font-normal btn btn-primary uppercase ${
                   item.outline && "btn-outline"
                 }`}
               >
@@ -103,10 +88,10 @@ export default function Header({
         <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
           <a class="p-4" href="/">
             <Image
-              src={logo.src || ""}
+              src={logo?.src || ""}
               width={100}
               height={28}
-              alt={logo.alt}
+              alt={logo?.alt}
             />
           </a>
 
@@ -121,7 +106,7 @@ export default function Header({
           </ul>
 
           <ul class="p-4 flex items-center gap-3">
-            {navigation.buttons?.map((item) => (
+            {navigation?.buttons?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
