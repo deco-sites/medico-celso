@@ -14,37 +14,122 @@
           "mobile": "https://assets.decocache.com/medico-celso/b7f801dd-4abd-4423-8b72-26dffdaa5e92/fullbanner-medico.png"
         },
         "size": "full",
-        "allowMargin": true
+        "allowMargin": false
       }
     },
     {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "__resolveType": "site/sections/doctor/Cards.tsx",
+      "cards": [
+        {
+          "title": "Atendimento clínico em doenças dos ouvidos, nariz, garganta, sono e alergias respiratórias para todas as idades.",
+          "description": " A Otorrinolaringologia é uma especialidade médica que trata doenças do ouvido, nariz, garganta e áreas adjacentes. Abrange o estudo e tratamento de problemas como otites, sinusites, amigdalites, rinite alérgica, roncos e apnéia, perdas auditivas, distúrbios do equilíbrio, rouquidão, zumbido, entre outros.",
+          "invertColor": true
+        },
+        {
+          "title": "Exame de nasofibrolaringoscopia",
+          "description": "A nasofibrolaringoscopia é um exame realizado no consultório que utiliza uma fibra flexível com uma câmera para avaliação das regiões nasais, da faringe e da laringe, incluindo as cordas vocais. É um exame realizado para identificar problemas ou doenças nasais, da faringe, problemas de voz e lesões nas vias aéreas superiores. Exame importante para diagnósticos precisos, planejamentos cirúrgicos e acompanhamento de tratamentos clínicos e pós-operatórios."
+        },
+        {
+          "title": "Cirurgias de garganta, nasais e de seios da face",
+          "description": "As cirurgias otorrinolaringológicas são procedimentos cirúrgicos que visam tratar doenças e condições que afetam o ouvido, nariz e garganta. Os procedimentos cirúrgicos podem ser indicados para uma variedade de problemas, como para desvio de septo nasal, sinusites crônicas, polipose nasossinusal, lesões nasais, amígdalas, adenóide, ronco e apneia, entre outras."
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithText.tsx",
+        "content": "<p>Dr. Celso Guerreiro Scott Savioli é um médico otorrinolaringologista atuante na cidade de São Paulo, especializado no diagnóstico e tratamento de doenças relacionadas ao nariz, garganta e ouvidos. Ele possui registro no CRM-SP sob o número 150619 e é reconhecido pelo Conselho Regional de Medicina do Estado de São Paulo (RQE 70144).</p><p>Dr. Celso graduou-se em Medicina pela Faculdade de Medicina de Jundiaí e completou sua residência em Otorrinolaringologia no Hospital CEMA em São Paulo. Além disso, realizou especialização em Rinologia Funcional e Cirurgia Nasossinusal na mesma instituição. Sua formação é complementada pelo título de especialista concedido pelo MEC, pela Associação Brasileira de Otorrinolaringologia e Cirurgia Cérvico-Facial (ABORL-CCF) e pela Associação Médica Brasileira (AMB).</p><p><strong>Atuação Profissional </strong><br>Dr. Celso atende em dois locais em São Paulo: <br>Clínica Campo Belo: Localizada na Avenida Vereador José Diniz, 3300, Conjunto 201, no bairro Campo Belo. <br>Clínica CEONG: Localizada na Avenida Adolfo Pinheiro, 1000, Conjunto 94, no bairro Santo Amaro.</p><p><strong>Especialidades e Procedimentos </strong><br>Dr. Celso é especializado em diversas áreas da otorrinolaringologia, incluindo: <br>Cirurgia endoscópica do nariz e dos seios da face. <br>Cirurgia de adenoides e amígdalas. <br>Avaliação e tratamento de alterações auditivas e do equilíbrio. <br>Disturbios do sono, principalmente, roncos e apnéia do sono. <br>Tratamento de doenças dos ouvidos, nariz e garganta em adultos e crianças. <br>Ele também realiza exames como a nasofibrolaringoscopia, que permite a visualização detalhada das vias aéreas superiores.</p>",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/36866640-36d0-4f75-b2cb-2178b23deac5/doctor-(1).png",
+          "desktop": "https://assets.decocache.com/medico-celso/36866640-36d0-4f75-b2cb-2178b23deac5/doctor-(1).png"
+        },
+        "title": "Dr. Celso G. S. Savioli",
+        "cta": {
+          "href": "/contato",
+          "text": "Agendar consulta"
+        }
+      }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ScheduleAppointment.tsx",
+        "title": "Agende sua consulta",
+        "description": "As consultas médicas e exames são feitas através de agendamento prévio, com atendimentos particulares e por convênio médico. Entre em contato que veremos a disponibilidade de horário e retornaremos o mais breve possível.",
+        "buttons": [
+          {
+            "text": "Agendar via Whatsapp",
+            "href": "/contato"
+          },
+          {
+            "text": "Agendar via site",
+            "href": "/contato",
+            "outline": true
+          }
+        ],
+        "backgroundImage": "https://assets.decocache.com/medico-celso/3b2914de-3619-4e8c-b862-af9c9320e661/bg-schedule.png"
+      }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/doctor/Testimonials.tsx",
+      "cards": [
+        {
+          "name": "Rafael Farinaccio",
+          "ratedFrom": "Avaliação do Google",
+          "content": "O Dr. Celso é extremamente atencioso e cuidadoso demais com os pacientes. Fiz uma cirurgia de desvio de septo e remoção de amídalas com ele e tudo ocorreu da melhor maneira possível, desde o pré-operatório até o acompanhamento posterior. Recomendo muito, sempre!",
+          "image": "https://assets.decocache.com/medico-celso/fc49bac8-b1ed-4560-9fa7-745e1475575d/d1.png"
+        },
+        {
+          "image": "https://assets.decocache.com/medico-celso/0428512a-9744-4987-aebb-1a031bac6a46/d2.png",
+          "name": "Eliana da Rosa",
+          "ratedFrom": "Avaliação do Google",
+          "content": "Recentemente o Dr.Celso Savioli fez a cirurgia de nariz para retirada de polipo ...super recomendo ,médico dedicado e cuidadoso com seus pacientes embora jovem é bem experiente .Deus o abençoe Dr.nessa profissão tão impirtante pra tds nós 🙏"
+        },
+        {
+          "name": "Ada Moraes",
+          "ratedFrom": "Avaliação do Google",
+          "content": "O Dr. Celso G. S Saviolo é um médico excepcional. O único médico capaz de ter curado uma otite crônica de mais de 30 anos (consultei mais de 15 médicos). O Dr. Celso, já na primeira consulta solicitou o exame adequado e receitou a medicação correta. Além de experiente, faz algo muito importante que é ouvir a dor do paciente.",
+          "image": "https://assets.decocache.com/medico-celso/4f286ad5-dd01-4e71-b1b0-bf48fa156743/d3.png"
+        }
+      ],
+      "title": "Já ajudamos várias pessoas",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/Faqs.tsx",
+        "title": "Perguntas frequentes",
+        "faqs": [
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          }
+        ]
+      }
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
-    },
-    {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/Footer.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

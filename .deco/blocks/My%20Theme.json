@@ -18,12 +18,14 @@
   "mainColors": {
     "primary": "#0C1F2A",
     "secondary": "#9F918E",
-    "base-100": "#FFF"
+    "base-100": "#FFF",
+    "neutral": "#e1ecf4"
   },
   "complementaryColors": {
     "primary-content": "#FFF",
     "secondary-content": "#FFF",
-    "base-content": "#243451"
+    "base-content": "#243451",
+    "neutral-content": "#0C1F2A"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
