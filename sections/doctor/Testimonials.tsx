@@ -56,11 +56,11 @@ export default function Testimonials({ title, subtitle, cards }: Props) {
       />
       <div class="pt-16 lg:pt-24">
         <div className={`container mx-auto slider-${id} flex flex-col`}>
-          <h2 className="text-[32px] font-medium uppercase text-center">
+          <h2 className="text-xl lg:text-[32px] font-medium uppercase text-center">
             {title}
           </h2>
-          <p className="mt-5 text-xl text-center">{subtitle}</p>
-          <div className={"swiper-container mt-8"}>
+          <p className="mt-5 text-sm lg:text-xl text-center">{subtitle}</p>
+          <div className={"swiper-container mt-8 overflow-hidden relative"}>
             <div className="swiper-wrapper">
               {cards?.map((card) => (
                 <div

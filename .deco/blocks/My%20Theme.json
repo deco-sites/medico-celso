@@ -31,7 +31,23 @@
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
     "fonts": [
       {
-        "variations": [],
+        "variations": [
+          {
+            "weight": "100"
+          },
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "600"
+          },
+          {
+            "weight": "700"
+          },
+          {
+            "weight": "800"
+          }
+        ],
         "family": "Inter"
       }
     ]

@@ -37,11 +37,11 @@ export default function ImageWithText(
       </style>
       <div
         class={clx(
-          "relative flex overflow-hidden",
+          "relative flex overflow-hidden flex-col lg:flex-row",
           allowMargin && "mt-16 lg:mt-24",
         )}
       >
-        <Picture className="absolute left-0 top-0 w-1/2 h-full z-0">
+        <Picture className="lg:absolute left-0 top-0 lg:w-1/2 h-full z-0">
           <SourceWithFit
             fit="contain"
             media="(max-width: 640px)"
@@ -59,12 +59,12 @@ export default function ImageWithText(
           <img
             src={images.desktop}
             alt={title}
-            class="w-full object-cover"
+            class="w-full lg:object-cover"
           />
         </Picture>
 
-        <div className="container mx-auto pl-[40%]">
-          <h2 className="text-[32px] font-semibold">{title}</h2>
+        <div className="container mx-auto lg:pl-[40%] text-center lg:text-start mt-8 lg:mt-0">
+          <h2 className="text-[20px] lg:text-[32px] font-semibold">{title}</h2>
           <div
             class={`mt-8 content-${id}`}
             dangerouslySetInnerHTML={{ __html: content }}
@@ -76,7 +76,7 @@ export default function ImageWithText(
               id={cta?.id}
               href={cta?.href}
               target={cta?.href.includes("http") ? "_blank" : "_self"}
-              class={`font-normal mt-8 btn btn-primary ${
+              class={`font-normal mt-8 btn btn-lg btn-primary ${
                 cta.outline && "btn-outline"
               }`}
             >

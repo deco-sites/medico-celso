@@ -6,16 +6,14 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/images/Banner.tsx",
-        "images": {
-          "desktop": "https://assets.decocache.com/medico-celso/b7f801dd-4abd-4423-8b72-26dffdaa5e92/fullbanner-medico.png",
-          "mobile": "https://assets.decocache.com/medico-celso/b7f801dd-4abd-4423-8b72-26dffdaa5e92/fullbanner-medico.png"
-        },
-        "size": "full",
-        "allowMargin": false
-      }
+      "__resolveType": "site/sections/doctor/MainHero.tsx",
+      "backgroundImage": "https://assets.decocache.com/medico-celso/d86014ac-4d85-45b5-b771-c5de3ba1757e/hero-bg.png",
+      "title": "<h1><span>Cuidando da Sua Saúde Auditiva e Respiratória com </span><strong><span>excelência.</span></strong></h1><p><span>Médico Otorrinolaringologista com especialização em <br>rinologia funcional e cirurgia nasossinusal endoscópica.</span></p>",
+      "cta": {
+        "text": "Agendar consulta",
+        "href": "/contato"
+      },
+      "backgroundImageMobile": "https://assets.decocache.com/medico-celso/00b31e06-0b61-427d-a9b0-6d88cdb8aa26/mobile-bg-hero.png"
     },
     {
       "__resolveType": "site/sections/doctor/Cards.tsx",

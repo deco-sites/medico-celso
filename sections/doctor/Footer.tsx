@@ -9,7 +9,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Desenvolvidor por: Beepdigital
+          Desenvolvido por: Beep digital
         </a>
       </div>
     </footer>
