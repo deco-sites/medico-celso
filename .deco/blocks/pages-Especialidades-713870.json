@@ -1,0 +1,105 @@
+{
+  "name": "Especialidades",
+  "path": "/especialidades",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithTextHero.tsx",
+        "coverImage": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png",
+        "coverImageMobile": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png",
+        "title": "Área de",
+        "subtitle": "atuação",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/bec35398-6441-4075-83f0-317882daeb8b/image.png",
+          "desktop": "https://assets.decocache.com/medico-celso/bec35398-6441-4075-83f0-317882daeb8b/image.png"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Cards"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithText.tsx",
+        "title": "DOENÇAS DO NARIZ",
+        "content": "<p><span>O nariz é um órgão localizado no centro do rosto, fundamental para a respiração, o olfato e a filtragem do ar. Além de ser o principal canal de entrada de ar para os pulmões, o nariz também atua como uma importante barreira de proteção contra agentes externos (o muco e os cílios nasais capturam poeira, microrganismos e partículas, impedindo sua entrada no organismo) e ressonância vocal. <br>Principais Doenças do Nariz <br>Rinite (alérgica ou infecciosa): Inflamação da mucosa nasal, que causa espirros, coriza, congestão e coceira. <br>Sinusite: Inflamação dos seios da face, geralmente causada por infecções ou alergias. Provoca dor facial, secreção espessa e congestão. <br>Desvio de septo nasal: Desalinhamento da parede que separa as narinas, dificultando a respiração. <br>Pólipos nasais: Crescimentos benignos no interior do nariz que causam obstrução e perda de olfato. <br>Epistaxe: Sangramento nasal recorrente, que pode estar ligado à fragilidade dos vasos, clima seco ou doenças. <br>Tumores nasais: Mais raros, mas podem afetar as cavidades nasais e seios paranasais.  <br>O otorrinolaringologista também é o médico especializado em tratar cirurgicamente doenças do nariz. A cirurgia nasal endoscópica, também conhecida como cirurgia endoscópica nasossinusal é uma das mais modernas e amplamente utilizada para tratar doenças nasais e dos seios da face. <br>É um procedimento minimamente invasivo que utiliza um endoscópio (instrumento fino com uma câmera na ponta) para visualizar, diagnosticar e tratar doenças dentro do nariz e dos seios paranasais. <br>Essa abordagem permite acessar com precisão áreas profundas da cavidade nasal sem necessidade de cortes externos no rosto, utilizando as próprias narinas como via de acesso. É realizada sob anestesia geral e todo o procedimento é guiado por vídeo em tempo real, o que permite grande precisão e segurança. A cirurgia dura, em média, 1 a 3 horas, dependendo da complexidade e, normalmente, o paciente tem alta no mesmo dia ou no dia seguinte. <br>É indicada principalmente para tratar doenças que não melhoram com medicamentos ou que exigem intervenção direta. As principais indicações incluem: <br>Desvio do septo nasal <br>Sinusite crônica <br>Pólipos nasais <br>Desobstrução dos seios paranasais <br>Retirada de tumores benignos <br>Biópsias <br>Complicações da sinusite <br>Fístulas de líquido cefalorraquidiano </span></p>",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/9af94c06-e0d7-42b3-8311-042ca876c045/image-(1).png",
+          "desktop": "https://assets.decocache.com/medico-celso/9af94c06-e0d7-42b3-8311-042ca876c045/image-(1).png"
+        },
+        "backgroundColor": "primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithText.tsx",
+        "title": "DOENÇAS DA GARGANTA",
+        "content": "<p><span>A garganta humana é uma estrutura anatômica essencial que conecta a boca e o nariz à laringe e ao esôfago. Ela é composta por diversas partes, incluindo a faringe, a laringe, as amígdalas e a epiglote, sendo responsável por funções vitais como a respiração, a deglutição e a fonação (produção da voz). <br><br>Principais Doenças da Garganta<br><br>Faringite: Inflamação da faringe, geralmente causada por infecções virais ou bacterianas. É uma das causas mais comuns de dor de garganta. <br>Amigdalite: Inflamação das amígdalas, que pode ser recorrente e causar febre, dor ao engolir e mal-estar. <br>Laringite: Inflamação da laringe, frequentemente associada ao uso excessivo da voz ou a infecções. <br>Refluxo laringofaríngeo: Quando o ácido do estômago atinge a garganta, pode causar irritação, pigarro e tosse crônica. <br>Câncer de garganta: Tumores que podem afetar a faringe, laringe ou cordas vocais. <br>Adenoidite: Inflamação das adenoides, comum em crianças, que pode causar obstrução nasal e infecções recorrentes. <br>Cirurgias Realizadas por Otorrinolaringologistas na Garganta <br>Amigdalectomia: Retirada das amígdalas, indicada em casos de infecções repetidas ou apneia do sono. <br>Adenoidectomia: Remoção das adenoides, comum em crianças com infecções respiratórias frequentes ou dificuldades para respirar pelo nariz. <br>Laringoscopia cirúrgica: Procedimento para examinar e tratar lesões nas cordas vocais ou na laringe. <br>Microcirurgia de laringe: Utilizada para remover nódulos, pólipos ou tumores das cordas vocais. </span></p>",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/4070d644-7824-4db1-86db-21576c528f2d/image-(2).png",
+          "desktop": "https://assets.decocache.com/medico-celso/4070d644-7824-4db1-86db-21576c528f2d/image-(2).png"
+        },
+        "backgroundColor": "neutral",
+        "invert": true,
+        "allowMargin": false
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithText.tsx",
+        "title": "DOENÇAS DO OUVIDO",
+        "content": "<p><span>Os ouvidos são órgãos sensoriais fundamentais para a nossa vida diária, responsáveis não apenas pela audição, mas também pelo equilíbrio. Com estrutura complexa e delicada, os ouvidos desempenham papéis essenciais no nosso relacionamento com o ambiente e na percepção sonora.  <br>O ouvido humano é dividido em três partes principais:  <br>Ouvido externo: <br>Inclui o pavilhão auricular (orelha) e o canal auditivo, que captam os sons e os direcionam para o tímpano. <br>Ouvido médio: <br>Contém os três menores ossos do corpo (martelo, bigorna e estribo), que transmitem as vibrações sonoras do tímpano para o ouvido interno. <br>Ouvido interno: <br>Abriga a cóclea (responsável pela audição) e o labirinto (responsável pelo equilíbrio).  <br>Principais Doenças e Problemas dos Ouvidos  <br>Otite externa: Inflamação ou infecção do canal auditivo externo, comum em quem se expõe muito à água ou umidade. <br>Otite média aguda: Infecção do ouvido médio, frequente em crianças, podendo causar dor, febre e perda auditiva temporária. <br>Otite média crônica: Inflamação ou infecção persistente que pode causar perfuração do tímpano e secreção contínua. <br>Perfuração do tímpano: Pode ocorrer por infecção ou trauma. <br>Surdez ou perda auditiva: Pode ter causas genéticas, infecciosas, traumáticas ou degenerativas (presbiacusia). <br>Tinnitus (zumbido): Sensação de som nos ouvidos sem fonte externa. <br>Labirintite: Distúrbios do ouvido interno que causam tontura, vertigem, náuseas e desequilíbrio. <br>Otosclerose: Alteração óssea no ouvido médio, que afeta a movimentação dos ossículos e causa perda auditiva progressiva.  <br>Os otorrinolaringologistas são os médicos especializados em diagnosticar e tratar cirurgicamente doenças dos ouvidos. Entre os procedimentos mais comuns, destacam-se:  <br>Miringotomia com colocação de tubo de ventilação<br>Timpanoplastia<br>Mastoidectomia<br>Estapedectomia</span></p>",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/cc7c8332-e240-4943-a8c4-c6af604efe5f/image-(3).png",
+          "desktop": "https://assets.decocache.com/medico-celso/cc7c8332-e240-4943-a8c4-c6af604efe5f/image-(3).png"
+        },
+        "backgroundColor": "primary",
+        "allowMargin": false
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithText.tsx",
+        "title": "RONCOS E APNEIA OBSTRUTIVA DO SONO",
+        "content": "<p><span>Os distúrbios do sono afetam milhões de pessoas em todo o mundo, prejudicando a qualidade de vida, o desempenho diário e a saúde cardiovascular. Entre os mais comuns estão o ronco e a apneia obstrutiva do sono, que muitas vezes estão interligados. <br>O ronco é o som causado pela vibração dos tecidos da garganta durante a passagem do ar durante o sono. Embora muitas vezes tratado como um incômodo social, o ronco pode ser um sinal de alerta para uma condição mais grave: a apneia do sono. <br>A apneia obstrutiva do sono é um distúrbio caracterizado por paradas repetidas da respiração durante o sono. Essas pausas ocorrem devido ao colapso das vias aéreas superiores, impedindo a entrada de ar nos pulmões. <br>Cada interrupção causa microdespertares (o cérebro \"acorda\" brevemente para retomar a respiração), resultando em sono fragmentado e não reparador. <br><br>Sintomas Comuns <br>Ronco alto e frequente <br>Pausas respiratórias observadas por terceiros <br>Sono agitado <br>Cansaço excessivo durante o dia <br>Dificuldade de concentração <br>Dor de cabeça matinal <br>Irritabilidade <br>Redução da libido <br><br>Principais Causas e Fatores de Risco <br>Obesidade e sobrepeso <br>Aumento das amígdalas ou adenoides (em crianças e adultos) <br>Desvio de septo nasal ou obstruções nasais <br>Flacidez muscular da garganta (relacionada à idade ou ao uso de álcool/sedativos) <br>Retrognatismo (mandíbula pequena ou recuada) <br>Predisposição genética <br>Tabagismo e consumo de álcool  <br>O diagnóstico é feito através da avaliação clínica com otorrinolaringologista e, quando necessário, de exames como a polissonografia — um exame do sono que monitora a respiração, batimentos cardíacos, oxigenação, movimentos corporais e a qualidade do sono. <br><br>Tratamentos para Ronco e Apneia do Sono <br>Tratamento Clínico: <br>CPAP (pressão positiva contínua nas vias aéreas) <br>Dispositivos intraorais (aparelhos mandibulares) <br>Mudanças no estilo de vida <br>Tratamento Cirúrgico: <br>As cirurgias são indicadas quando há causas anatômicas evidentes que contribuem para a obstrução, ou quando os tratamentos clínicos não são eficazes. As principais incluem: <br>Uvulopalatofaringoplastia: Remove e reposiciona tecidos da garganta para ampliar a via aérea. <br>Cirurgias nasais: melhoram a respiração nasal. <br>Adenoidectomia e amigdalectomia</span></p>",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/4070d644-7824-4db1-86db-21576c528f2d/image-(2).png",
+          "desktop": "https://assets.decocache.com/medico-celso/4070d644-7824-4db1-86db-21576c528f2d/image-(2).png"
+        },
+        "backgroundColor": "neutral",
+        "allowMargin": false,
+        "invert": true
+      }
+    },
+    {
+      "__resolveType": "Testimonials"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "ScheduleAppointment"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/doctor/ScheduleAppointment.tsx",
+  "title": "Agende sua consulta",
+  "description": "As consultas médicas e exames são feitas através de agendamento prévio, com atendimentos particulares e por convênio médico. Entre em contato que veremos a disponibilidade de horário e retornaremos o mais breve possível.",
+  "buttons": [
+    {
+      "text": "Agendar via Whatsapp",
+      "href": "/contato"
+    },
+    {
+      "text": "Agendar via site",
+      "href": "/contato",
+      "outline": true
+    }
+  ],
+  "backgroundImage": "https://assets.decocache.com/medico-celso/3b2914de-3619-4e8c-b862-af9c9320e661/bg-schedule.png"
+}

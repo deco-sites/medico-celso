@@ -1,0 +1,25 @@
+{
+  "__resolveType": "site/sections/doctor/Testimonials.tsx",
+  "cards": [
+    {
+      "name": "Rafael Farinaccio",
+      "ratedFrom": "Avaliação do Google",
+      "content": "O Dr. Celso é extremamente atencioso e cuidadoso demais com os pacientes. Fiz uma cirurgia de desvio de septo e remoção de amídalas com ele e tudo ocorreu da melhor maneira possível, desde o pré-operatório até o acompanhamento posterior. Recomendo muito, sempre!",
+      "image": "https://assets.decocache.com/medico-celso/fc49bac8-b1ed-4560-9fa7-745e1475575d/d1.png"
+    },
+    {
+      "image": "https://assets.decocache.com/medico-celso/0428512a-9744-4987-aebb-1a031bac6a46/d2.png",
+      "name": "Eliana da Rosa",
+      "ratedFrom": "Avaliação do Google",
+      "content": "Recentemente o Dr.Celso Savioli fez a cirurgia de nariz para retirada de polipo ...super recomendo ,médico dedicado e cuidadoso com seus pacientes embora jovem é bem experiente .Deus o abençoe Dr.nessa profissão tão impirtante pra tds nós 🙏"
+    },
+    {
+      "name": "Ada Moraes",
+      "ratedFrom": "Avaliação do Google",
+      "content": "O Dr. Celso G. S Saviolo é um médico excepcional. O único médico capaz de ter curado uma otite crônica de mais de 30 anos (consultei mais de 15 médicos). O Dr. Celso, já na primeira consulta solicitou o exame adequado e receitou a medicação correta. Além de experiente, faz algo muito importante que é ouvir a dor do paciente.",
+      "image": "https://assets.decocache.com/medico-celso/4f286ad5-dd01-4e71-b1b0-bf48fa156743/d3.png"
+    }
+  ],
+  "title": "Já ajudamos várias pessoas",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}

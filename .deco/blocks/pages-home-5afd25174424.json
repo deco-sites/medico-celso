@@ -16,22 +16,7 @@
       "backgroundImageMobile": "https://assets.decocache.com/medico-celso/00b31e06-0b61-427d-a9b0-6d88cdb8aa26/mobile-bg-hero.png"
     },
     {
-      "__resolveType": "site/sections/doctor/Cards.tsx",
-      "cards": [
-        {
-          "title": "Atendimento clínico em doenças dos ouvidos, nariz, garganta, sono e alergias respiratórias para todas as idades.",
-          "description": " A Otorrinolaringologia é uma especialidade médica que trata doenças do ouvido, nariz, garganta e áreas adjacentes. Abrange o estudo e tratamento de problemas como otites, sinusites, amigdalites, rinite alérgica, roncos e apnéia, perdas auditivas, distúrbios do equilíbrio, rouquidão, zumbido, entre outros.",
-          "invertColor": true
-        },
-        {
-          "title": "Exame de nasofibrolaringoscopia",
-          "description": "A nasofibrolaringoscopia é um exame realizado no consultório que utiliza uma fibra flexível com uma câmera para avaliação das regiões nasais, da faringe e da laringe, incluindo as cordas vocais. É um exame realizado para identificar problemas ou doenças nasais, da faringe, problemas de voz e lesões nas vias aéreas superiores. Exame importante para diagnósticos precisos, planejamentos cirúrgicos e acompanhamento de tratamentos clínicos e pós-operatórios."
-        },
-        {
-          "title": "Cirurgias de garganta, nasais e de seios da face",
-          "description": "As cirurgias otorrinolaringológicas são procedimentos cirúrgicos que visam tratar doenças e condições que afetam o ouvido, nariz e garganta. Os procedimentos cirúrgicos podem ser indicados para uma variedade de problemas, como para desvio de septo nasal, sinusites crônicas, polipose nasossinusal, lesões nasais, amígdalas, adenóide, ronco e apneia, entre outras."
-        }
-      ]
+      "__resolveType": "Cards"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -52,81 +37,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/doctor/ScheduleAppointment.tsx",
-        "title": "Agende sua consulta",
-        "description": "As consultas médicas e exames são feitas através de agendamento prévio, com atendimentos particulares e por convênio médico. Entre em contato que veremos a disponibilidade de horário e retornaremos o mais breve possível.",
-        "buttons": [
-          {
-            "text": "Agendar via Whatsapp",
-            "href": "/contato"
-          },
-          {
-            "text": "Agendar via site",
-            "href": "/contato",
-            "outline": true
-          }
-        ],
-        "backgroundImage": "https://assets.decocache.com/medico-celso/3b2914de-3619-4e8c-b862-af9c9320e661/bg-schedule.png"
+        "__resolveType": "ScheduleAppointment"
       }
     },
     {
-      "__resolveType": "site/sections/doctor/Testimonials.tsx",
-      "cards": [
-        {
-          "name": "Rafael Farinaccio",
-          "ratedFrom": "Avaliação do Google",
-          "content": "O Dr. Celso é extremamente atencioso e cuidadoso demais com os pacientes. Fiz uma cirurgia de desvio de septo e remoção de amídalas com ele e tudo ocorreu da melhor maneira possível, desde o pré-operatório até o acompanhamento posterior. Recomendo muito, sempre!",
-          "image": "https://assets.decocache.com/medico-celso/fc49bac8-b1ed-4560-9fa7-745e1475575d/d1.png"
-        },
-        {
-          "image": "https://assets.decocache.com/medico-celso/0428512a-9744-4987-aebb-1a031bac6a46/d2.png",
-          "name": "Eliana da Rosa",
-          "ratedFrom": "Avaliação do Google",
-          "content": "Recentemente o Dr.Celso Savioli fez a cirurgia de nariz para retirada de polipo ...super recomendo ,médico dedicado e cuidadoso com seus pacientes embora jovem é bem experiente .Deus o abençoe Dr.nessa profissão tão impirtante pra tds nós 🙏"
-        },
-        {
-          "name": "Ada Moraes",
-          "ratedFrom": "Avaliação do Google",
-          "content": "O Dr. Celso G. S Saviolo é um médico excepcional. O único médico capaz de ter curado uma otite crônica de mais de 30 anos (consultei mais de 15 médicos). O Dr. Celso, já na primeira consulta solicitou o exame adequado e receitou a medicação correta. Além de experiente, faz algo muito importante que é ouvir a dor do paciente.",
-          "image": "https://assets.decocache.com/medico-celso/4f286ad5-dd01-4e71-b1b0-bf48fa156743/d3.png"
-        }
-      ],
-      "title": "Já ajudamos várias pessoas",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "__resolveType": "Testimonials"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/doctor/Faqs.tsx",
-        "title": "Perguntas frequentes",
-        "faqs": [
-          {
-            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
-          },
-          {
-            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
-          },
-          {
-            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
-          },
-          {
-            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
-          },
-          {
-            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
-          }
-        ]
+        "__resolveType": "Faqs"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/doctor/Footer.tsx"
+        "__resolveType": "Footer"
       }
     }
   ],

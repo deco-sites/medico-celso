@@ -1,0 +1,63 @@
+{
+  "name": "Sobre",
+  "path": "/sobre",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/ImageWithTextHero.tsx",
+        "coverImage": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png",
+        "coverImageMobile": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png",
+        "title": "Cuidando da Sua Saúde Auditiva e Respiratória com ",
+        "subtitle": "excelência.",
+        "images": {
+          "mobile": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png",
+          "desktop": "https://assets.decocache.com/medico-celso/0d912a03-d73d-46d6-9c21-2e7607f1fe37/image-168.png"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/Text.tsx",
+        "title": "Dr. Celso G. S. Savioli",
+        "content": "<p><span>Dr. Celso Guerreiro Scott Savioli é um médico otorrinolaringologista atuante na cidade de São Paulo, especializado no diagnóstico e tratamento de doenças relacionadas ao nariz, garganta e ouvidos. Ele possui registro no CRM-SP sob o número 150619 e é reconhecido pelo Conselho Regional de Medicina do Estado de São Paulo (RQE 70144). <br>Formação <br>Dr. Celso graduou-se em Medicina pela Faculdade de Medicina de Jundiaí e completou sua residência em Otorrinolaringologia no Hospital CEMA em São Paulo. Além disso, realizou especialização em Rinologia Funcional e Cirurgia Nasossinusal na mesma instituição. Sua formação é complementada pelo título de especialista concedido pelo MEC, pela Associação Brasileira de Otorrinolaringologia e Cirurgia Cérvico-Facial (ABORL-CCF) e pela Associação Médica Brasileira (AMB). <br>Atuação Profissional <br>Dr. Celso atende em dois locais em São Paulo: <br>⦁ Clínica Campo Belo: Localizada na Avenida Vereador José Diniz, 3300, Conjunto 201, no bairro Campo Belo. <br>⦁ Clínica CEONG: Localizada na Avenida Adolfo Pinheiro, 1000, Conjunto 94, no bairro Santo Amaro. <br>Especialidades e Procedimentos <br>Dr. Celso é especializado em diversas áreas da otorrinolaringologia, incluindo: <br>⦁ Cirurgia endoscópica do nariz e dos seios da face. <br>⦁ Cirurgia de adenoides e amígdalas. <br>⦁ Avaliação e tratamento de alterações auditivas e do equilíbrio. <br>⦁ Disturbios do sono, principalmente, roncos e apnéia do sono. <br>⦁ Tratamento de doenças dos ouvidos, nariz e garganta em adultos e crianças. <br>Ele também realiza exames como a nasofibrolaringoscopia, que permite a visualização detalhada das vias aéreas superiores. </span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/doctor/Text.tsx",
+        "title": "TRAJETÓRIA",
+        "content": "<p>Olá! Obrigado por visitar a minha página na internet. Me chamo Celso e sou nascido em São Paulo – SP. Cresci numa família que não possui nenhum médico, mas desde muito cedo sempre manifestei para meus pais, irmã e demais familiares o meu desejo em seguir nessa profissão, obtendo total apoio e incentivo, que serviram como impulso e determinação para atingir esse objetivo. Durante a minha adolescência e início da vida adulta desenvolvi muito gosto pela música e desenvolvi a capacidade de tocar diversos instrumentos, alguns estudando profundamente e outros sendo autodidata. <br>Ao conhecer, no decorrer da minha formação médica, uma área da medicina que consegui relacionar completamente com o meu maior hobby, a música, podendo lidar com pessoas que cantam, onde envolve-se a laringe e a respiração e com a nossa audição, responsável pelo prazer de escutar, foi um casamento perfeito das duas partes que mais me encantavam na vida, tendo como vantagem atuar nos campos de atendimento clínico e cirúrgico, para todas as idades. Acredito que ao buscar um otorrinolaringologista, os pacientes esperam mais do que conhecimento médico. Eles buscam um profissional que una capacidade técnica, clareza na comunicação e, acima de tudo, empatia no atendimento. Na minha visão, um bom otorrinolaringologista deve atuar com excelência em duas frentes fundamentais: médica e humana. E estou constantemente me esforçando para atingir o meu máximo nos dois campos. <br>Busco sempre oferecer, quando possível, diagnósticos precisos com orientações acessíveis e objetivas, respeitando a individualidade de cada caso, com foco em aliviar sintomas, melhorar a qualidade de vida e resolver o problema apresentado. <br>Espero que possamos nos encontrar em breve. <br></p>",
+        "primaryBackground": true,
+        "textCenter": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Testimonials"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Faqs"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

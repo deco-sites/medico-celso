@@ -1,0 +1,26 @@
+{
+  "name": "Contato",
+  "path": "/contato",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/doctor/ContactForm.tsx",
+      "email": "Recepcaocampobello@gmail.com",
+      "phone": "+55 11 94243-2619",
+      "address": "Avenida Vereador José Diniz 3300 Conj 201 - 2º Andar | CEP 04604-006 Campo Belo | São Paulo - SP",
+      "whatsappLink": "#"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
