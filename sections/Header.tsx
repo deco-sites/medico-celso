@@ -30,7 +30,12 @@ export default function Header({
 }: Nav) {
   const device = useDevice();
   return (
-    <nav class="drawer">
+    <nav
+      class="drawer"
+      style={{
+        boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.10);",
+      }}
+    >
       {device === "mobile" && (
         <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
       )}
@@ -43,7 +48,10 @@ export default function Header({
           <Icon id="Bars3" size={32} strokeWidth={0.1} />
         </label>
 
-        <a href="/" class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 lg:static">
+        <a
+          href="/"
+          class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 lg:translate-y-0 lg:translate-x-0 lg:static"
+        >
           <Image
             class="w-full h-auto max-w-[225px]"
             src={logo?.src || ""}
@@ -74,7 +82,7 @@ export default function Header({
                 id={item?.id}
                 href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary uppercase ${
+                class={`font-normal btn btn-primary uppercase lg:px-12 ${
                   item.outline && "btn-outline"
                 }`}
               >

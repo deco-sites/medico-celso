@@ -73,8 +73,8 @@ export default function Cards({ cards }: Props) {
                           : "bg-neutral text-neutral-content",
                       )}
                     >
-                      <strong class="text-sm">{card.title}</strong>
-                      <p class="text-xs">{card.description}</p>
+                      <strong class="text-xl lg:text-sm">{card.title}</strong>
+                      <p class="text-sm lg:text-xs">{card.description}</p>
                     </div>
                   </div>
                 );

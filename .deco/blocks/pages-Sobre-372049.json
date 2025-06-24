@@ -40,8 +40,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Testimonials"
+        "__resolveType": "ScheduleAppointment"
       }
+    },
+    {
+      "__resolveType": "Testimonials"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

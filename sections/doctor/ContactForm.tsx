@@ -16,11 +16,11 @@ export default function ContactForm(
           <h1 class="text-[32px] lg:text-4xl uppercase">
             Entre em contato com a nossa equipe
           </h1>
-          <p class="lg:text-2xl mt-[10px]">
+          <p class="lg:text-2xl mt-[10px] text-accent-content">
             Preencha o formulário e receba o contato de um de nossos
             especialistas.
           </p>
-          <div class="text-xl flex gap-2 items-center mt-[30px]">
+          <div class="text-xl flex gap-2 items-center mt-[30px] text-accent-content">
             <svg
               width="24"
               height="19"
@@ -35,7 +35,7 @@ export default function ContactForm(
             </svg>
             <span>{email}</span>
           </div>
-          <div class="text-xl flex gap-2 items-center mt-[30px]">
+          <div class="text-xl flex gap-2 items-center mt-[30px] text-accent-content">
             <svg
               width="26"
               height="26"
@@ -50,7 +50,7 @@ export default function ContactForm(
             </svg>
             <span>{phone}</span>
           </div>
-          <div class="text-xl flex gap-2 items-center mt-[30px]">
+          <div class="text-xl flex gap-2 items-center mt-[30px] text-accent-content">
             <svg
               width="21"
               height="28"
@@ -71,7 +71,7 @@ export default function ContactForm(
 
             <span>{address}</span>
           </div>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" class="flex flex-col text-2xl mt-[30px]">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" class="flex flex-col text-2xl mt-[30px] text-accent-content">
           Ou fale conosco via
             <svg
               width="190"
@@ -99,7 +99,7 @@ export default function ContactForm(
             </svg>
           </a>
         </div>
-        <form className="shadow-lg p-10 rounded-lg flex-1">
+        <form className="shadow-lg p-10 rounded-xl flex-1">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <label htmlFor="nome">Nome</label>

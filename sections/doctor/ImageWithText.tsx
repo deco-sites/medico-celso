@@ -44,6 +44,12 @@ export default function ImageWithText(
         .content-${id} p:not(:first-of-type) {
           margin-top: 20px;
         }
+        @media (min-width: 1024px) {
+          .content-${id} ul{
+            list-style-type: disc;
+            margin-left: 20px;
+          }
+        }
       `,
         }}
       >

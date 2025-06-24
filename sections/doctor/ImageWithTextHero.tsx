@@ -63,8 +63,8 @@ export default function ImageWithTextHero(
           />
         </Picture>
 
-        <div className="text-center lg:text-start lg:mt-0 bg-primary text-primary-content p-16 lg:p-24 lg:pr-0">
-          <h1 className="text-[20px] lg:text-[36px] uppercase w-full lg:max-w-[600px] font-normal">{title}<strong class="text-[40px] lg:text-[85px] font-extrabold block">{subtitle}</strong></h1>
+        <div className="text-center lg:text-start lg:mt-0 bg-primary text-primary-content p-16 lg:pr-0 flex flex-col items-center justify-center">
+          <h1 className="text-[20px] xl:text-[36px] uppercase w-full lg:max-w-[600px] font-normal">{title}<strong class="text-[40px] xl:text-[85px] font-extrabold block">{subtitle}</strong></h1>
           {cta && (
             <a
               key={cta?.id}
