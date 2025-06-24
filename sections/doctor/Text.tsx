@@ -1,4 +1,5 @@
 import { clx } from "site/sdk/clx.ts";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   title: string;
@@ -29,3 +30,5 @@ export default function Text(
     </div>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

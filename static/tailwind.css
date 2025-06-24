@@ -945,9 +945,6 @@ html {
 .drawer-toggle:checked ~ .drawer-side > *:not(.drawer-overlay) {
   transform: translateX(0%);
 }
-.drawer-end {
-  grid-auto-columns: auto max-content;
-}
 .drawer-end .drawer-toggle ~ .drawer-content {
   grid-column-start: 1;
 }
@@ -2535,6 +2532,9 @@ html {
 .left-0 {
   left: 0px;
 }
+.left-1\/2 {
+  left: 50%;
+}
 .right-1 {
   right: 0.25rem;
 }
@@ -2543,6 +2543,9 @@ html {
 }
 .top-0 {
   top: 0px;
+}
+.top-1\/2 {
+  top: 50%;
 }
 .top-4 {
   top: 1rem;
@@ -2590,6 +2593,10 @@ html {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -2899,8 +2906,16 @@ html {
 .grow {
   flex-grow: 1;
 }
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .-translate-x-3 {
   --tw-translate-x: -0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .-translate-y-2 {
@@ -2937,9 +2952,6 @@ html {
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-row {
   flex-direction: row;
@@ -3012,6 +3024,9 @@ html {
 }
 .gap-\[4px\] {
   gap: 4px;
+}
+.gap-\[53px\] {
+  gap: 53px;
 }
 .gap-\[6px\] {
   gap: 6px;
@@ -3308,10 +3323,6 @@ html {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -3327,6 +3338,9 @@ html {
 .py-\[137px\] {
   padding-top: 137px;
   padding-bottom: 137px;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 .pb-12 {
   padding-bottom: 3rem;
@@ -3345,9 +3359,6 @@ html {
 }
 .pl-3 {
   padding-left: 0.75rem;
-}
-.pr-0 {
-  padding-right: 0px;
 }
 .pr-2 {
   padding-right: 0.5rem;
@@ -3406,8 +3417,11 @@ html {
 .text-\[20px\] {
   font-size: 20px;
 }
-.text-\[85px\] {
-  font-size: 85px;
+.text-\[32px\] {
+  font-size: 32px;
+}
+.text-\[40px\] {
+  font-size: 40px;
 }
 .text-base {
   font-size: 1rem;
@@ -3812,9 +3826,18 @@ html {
 }
 @media (min-width: 1024px) {
 
+  .lg\:static {
+    position: static;
+  }
+
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .lg\:mt-0 {
@@ -3871,6 +3894,10 @@ html {
 
   .lg\:max-w-\[600px\] {
     max-width: 600px;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
   }
 
   .lg\:max-w-xl {
@@ -3975,6 +4002,14 @@ html {
     padding-bottom: 7rem;
   }
 
+  .lg\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
   .lg\:pt-24 {
     padding-top: 6rem;
   }
@@ -3992,6 +4027,11 @@ html {
     line-height: 2rem;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-\[32px\] {
     font-size: 32px;
   }
@@ -4002,6 +4042,10 @@ html {
 
   .lg\:text-\[80px\] {
     font-size: 80px;
+  }
+
+  .lg\:text-\[85px\] {
+    font-size: 85px;
   }
 
   .lg\:text-xl {

@@ -1,5 +1,6 @@
 import { clx } from "site/sdk/clx.ts";
 import { useId } from "site/sdk/useId.ts";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   cards: {
@@ -53,7 +54,7 @@ export default function Cards({ cards }: Props) {
       <div class="pt-16 lg:pt-24">
         <div className={`container mx-auto slider-${id}`}>
           <div
-            className={`swiper-container relative overflow-hidden`}
+            className={`swiper-container relative overflow-hidden pb-10`}
             id={id}
           >
             <div class="swiper-wrapper">
@@ -109,3 +110,5 @@ export default function Cards({ cards }: Props) {
     </>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

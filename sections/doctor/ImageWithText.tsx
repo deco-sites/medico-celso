@@ -2,6 +2,8 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, SourceWithFit } from "site/components/PictureWithFit.tsx";
 import { useId } from "site/sdk/useId.ts";
 import { clx } from "site/sdk/clx.ts";
+import { useDevice } from "@deco/deco/hooks";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   title: string;
@@ -32,6 +34,7 @@ export default function ImageWithText(
     invert = false,
   }: Props,
 ) {
+  const device = useDevice()
   const id = useId();
   return (
     <>
@@ -45,7 +48,7 @@ export default function ImageWithText(
         }}
       >
       </style>
-      {invert
+      {(device === 'desktop' && invert)
         ? (
           <div
             class={clx(
@@ -59,7 +62,7 @@ export default function ImageWithText(
                 "bg-neutral text-neutral-content",
             )}
           >
-            <div className="p-16 lg:p-24 pr-0 text-center lg:text-start mt-8 lg:mt-0">
+            <div className="container lg:max-w-full lg:p-24 lg:pr-2 text-center lg:text-start lg:mt-0">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {title}
               </h2>
@@ -138,7 +141,7 @@ export default function ImageWithText(
               />
             </Picture>
 
-            <div className="p-16 lg:p-24 pr-0 text-center lg:text-start mt-8 lg:mt-0">
+            <div className="container lg:max-w-full lg:p-24 lg:pr-0 text-center my-8 lg:my-0 lg:text-start">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {title}
               </h2>
@@ -166,3 +169,5 @@ export default function ImageWithText(
     </>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

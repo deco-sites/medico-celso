@@ -1,3 +1,5 @@
+import Section from "site/components/ui/Section.tsx";
+
 export default function Footer() {
   return (
     <footer class="bg-secondary text-secondary-content">
@@ -15,3 +17,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="200px" />;

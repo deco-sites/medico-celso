@@ -1,3 +1,5 @@
+import Section from "site/components/ui/Section.tsx";
+
 interface Props {
   title: string;
   faqs: {
@@ -36,3 +38,5 @@ export default function FAQs({ title, faqs }: Props) {
     </div>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

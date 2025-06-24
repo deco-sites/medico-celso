@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { useId } from "site/sdk/useId.ts";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   title: string;
@@ -60,7 +61,7 @@ export default function Testimonials({ title, subtitle, cards }: Props) {
             {title}
           </h2>
           <p className="mt-5 text-sm lg:text-xl text-center">{subtitle}</p>
-          <div className={"swiper-container mt-8 overflow-hidden relative"}>
+          <div className={"swiper-container mt-8 overflow-hidden relative pb-10"}>
             <div className="swiper-wrapper">
               {cards?.map((card) => (
                 <div
@@ -113,3 +114,5 @@ export default function Testimonials({ title, subtitle, cards }: Props) {
     </>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

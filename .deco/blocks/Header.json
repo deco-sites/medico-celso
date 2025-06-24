@@ -11,8 +11,8 @@
         "url": "/especialidades"
       },
       {
-        "label": "Blog",
-        "url": "/blog"
+        "label": "Home",
+        "url": "/"
       }
     ],
     "buttons": [

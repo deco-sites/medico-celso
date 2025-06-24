@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { useDevice } from "@deco/deco/hooks";
+import Section from "site/components/ui/Section.tsx";
 
 interface CTA {
   id?: string;
@@ -103,3 +104,5 @@ export default function MainHero(
     </>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

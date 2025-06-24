@@ -1,6 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
+import { useDevice } from "@deco/deco/hooks";
 
 export interface CTA {
   id?: string;
@@ -27,14 +28,29 @@ export default function Header({
   logo,
   navigation,
 }: Nav) {
+  const device = useDevice();
   return (
-    <nav class="drawer drawer-end">
-      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
-
+    <nav class="drawer">
+      {device === "mobile" && (
+        <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
+      )}
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <Image class="w-full h-auto max-w-[225px]" src={logo?.src || ""} width={100} height={28} alt={logo?.alt} />
+      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-5">
+        <label
+          htmlFor="mobile-drawer-nav"
+          class="flex lg:hidden btn btn-ghost drawer-button"
+        >
+          <Icon id="Bars3" size={32} strokeWidth={0.1} />
+        </label>
+
+        <a href="/" class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 lg:static">
+          <Image
+            class="w-full h-auto max-w-[225px]"
+            src={logo?.src || ""}
+            width={100}
+            height={28}
+            alt={logo?.alt}
+          />
         </a>
 
         <div class="hidden items-center justify-center gap-16 lg:flex">
@@ -67,13 +83,6 @@ export default function Header({
             ))}
           </ul>
         </div>
-
-        <label
-          htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
-        >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
-        </label>
       </div>
 
       {/* sidebar */}

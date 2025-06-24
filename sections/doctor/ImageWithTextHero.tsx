@@ -2,6 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, SourceWithFit } from "site/components/PictureWithFit.tsx";
 import { useId } from "site/sdk/useId.ts";
 import { clx } from "site/sdk/clx.ts";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   title: string
@@ -36,7 +37,7 @@ export default function ImageWithTextHero(
       </style>
       <div
         class={clx(
-          "relative grid grid-cols-2",
+          "relative grid grid-cols-1 lg:grid-cols-2",
           allowMargin && "mt-16 lg:mt-24",
         )}
       >
@@ -62,8 +63,8 @@ export default function ImageWithTextHero(
           />
         </Picture>
 
-        <div className="text-center lg:text-start mt-8 lg:mt-0 bg-primary text-primary-content p-16 lg:p-24 pr-0">
-          <h1 className="text-[20px] lg:text-[36px] uppercase w-full lg:max-w-[600px] font-normal">{title}<strong class="text-[85px] font-extrabold block">{subtitle}</strong></h1>
+        <div className="text-center lg:text-start lg:mt-0 bg-primary text-primary-content p-16 lg:p-24 lg:pr-0">
+          <h1 className="text-[20px] lg:text-[36px] uppercase w-full lg:max-w-[600px] font-normal">{title}<strong class="text-[40px] lg:text-[85px] font-extrabold block">{subtitle}</strong></h1>
           {cta && (
             <a
               key={cta?.id}
@@ -82,3 +83,5 @@ export default function ImageWithTextHero(
     </>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

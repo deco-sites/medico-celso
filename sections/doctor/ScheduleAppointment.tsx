@@ -1,4 +1,5 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
+import Section from "site/components/ui/Section.tsx";
 
 interface Props {
   title: string;
@@ -43,3 +44,5 @@ export default function ScheduleAppointment(
     </div>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;

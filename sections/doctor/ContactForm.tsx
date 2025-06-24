@@ -1,3 +1,5 @@
+import Section from "site/components/ui/Section.tsx";
+
 interface Props {
   email?: string;
   phone?: string;
@@ -9,12 +11,12 @@ export default function ContactForm(
 ) {
   return (
     <div class="py-16 lg:py-24">
-      <div className="container mx-auto flex lg:gap-[163px]">
+      <div className="container mx-auto flex gap-[53px] lg:gap-[163px] flex-col lg:flex-row">
         <div class="w-full lg:max-w-[400px]">
-          <h1 class="text-4xl uppercase">
+          <h1 class="text-[32px] lg:text-4xl uppercase">
             Entre em contato com a nossa equipe
           </h1>
-          <p class="text-2xl mt-[10px]">
+          <p class="lg:text-2xl mt-[10px]">
             Preencha o formulário e receba o contato de um de nossos
             especialistas.
           </p>
@@ -132,3 +134,5 @@ export default function ContactForm(
     </div>
   );
 }
+
+export const LoadingFallback = () => <Section.Placeholder height="635px" />;
