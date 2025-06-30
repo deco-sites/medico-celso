@@ -43,6 +43,7 @@ export default function MainHero(
             display: block;
             line-height: 100px; /* 117.647% */
             letter-spacing: 4.25px;
+            margin-top: 8px;
           }
 
           .hero-main-title p {

@@ -68,7 +68,7 @@ export default function ImageWithText(
                 "bg-neutral text-neutral-content",
             )}
           >
-            <div className="container lg:max-w-full lg:p-24 lg:pr-2 text-center lg:text-start lg:mt-0">
+            <div className="container lg:max-w-full lg:p-24 lg:pr-2 lg:mt-0">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {title}
               </h2>
@@ -147,7 +147,7 @@ export default function ImageWithText(
               />
             </Picture>
 
-            <div className="container lg:max-w-full lg:p-24 lg:pr-0 text-center my-8 lg:my-0 lg:text-start">
+            <div className="container lg:max-w-full lg:p-24 lg:pr-0 my-8 lg:my-0">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {title}
               </h2>

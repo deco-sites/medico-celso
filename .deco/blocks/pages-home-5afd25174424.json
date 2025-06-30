@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/doctor/MainHero.tsx",
       "backgroundImage": "https://assets.decocache.com/medico-celso/d86014ac-4d85-45b5-b771-c5de3ba1757e/hero-bg.png",
-      "title": "<h1><span>Cuidando da Sua Saúde Auditiva e Respiratória com </span><strong><span>excelência.</span></strong></h1><p><span>Médico Otorrinolaringologista com especialização em <br>rinologia funcional e cirurgia nasossinusal endoscópica.</span></p>",
+      "title": "<h1>Cuidando da Sua Saúde Auditiva e Respiratória com <strong>excelência.</strong></h1><p>Médico Otorrinolaringologista com especialização em <br>rinologia funcional e cirurgia nasossinusal endoscópica.</p>",
       "cta": {
         "text": "Agendar consulta",
         "href": "/contato"

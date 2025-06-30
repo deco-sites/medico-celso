@@ -52,7 +52,7 @@ export default function Header({
           href="/"
           class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 lg:translate-y-0 lg:translate-x-0 lg:static"
         >
-          <Image
+          <img
             class="w-full h-auto max-w-[225px]"
             src={logo?.src || ""}
             width={100}
