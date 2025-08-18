@@ -1,0 +1,39 @@
+{
+  "name": "Linktree - Pedro Emanuel",
+  "path": "/linktree",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Linktree.tsx",
+      "background": "https://assets.decocache.com/medico-celso/9726ed65-a125-4d01-9400-1c2a9071539b/bg-Linktree.png",
+      "picture": "https://assets.decocache.com/medico-celso/75ede51d-1696-4261-b2a7-2b9356285664/doctor-lab-coat-holding-stethoscope-looking-directly-camera.png",
+      "title": "Dr. Celso savioli",
+      "subtitle": "Otorrinolaringologista Fellowship em Rinologia Funcional e Cirurgia Nasossinusal",
+      "links": [
+        {
+          "title": "Agendamento",
+          "url": "#"
+        },
+        {
+          "title": "Whatsapp",
+          "url": "#"
+        },
+        {
+          "title": "Instagram",
+          "url": "#"
+        },
+        {
+          "title": "Facebook",
+          "url": "#"
+        },
+        {
+          "title": "Linkedin",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
