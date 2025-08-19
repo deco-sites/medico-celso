@@ -2,17 +2,20 @@
   "__resolveType": "site/sections/doctor/Cards.tsx",
   "cards": [
     {
-      "title": "Atendimento clínico em doenças dos ouvidos, nariz, garganta, sono e alergias respiratórias para todas as idades.",
-      "description": " A Otorrinolaringologia é uma especialidade médica que trata doenças do ouvido, nariz, garganta e áreas adjacentes. Abrange o estudo e tratamento de problemas como otites, sinusites, amigdalites, rinite alérgica, roncos e apnéia, perdas auditivas, distúrbios do equilíbrio, rouquidão, zumbido, entre outros.",
-      "invertColor": true
+      "title": "Atendimento clínico",
+      "description": "Em doenças dos ouvidos, nariz, garganta, sono e alergias respiratórias para todas as idades.",
+      "invertColor": true,
+      "modalDescription": " A Otorrinolaringologia é uma especialidade médica que trata doenças do ouvido, nariz, garganta e áreas adjacentes. Abrange o estudo e tratamento de problemas como otites, sinusites, amigdalites, rinite alérgica, roncos e apnéia, perdas auditivas, distúrbios do equilíbrio, rouquidão, zumbido, entre outros."
     },
     {
-      "title": "Exame de nasofibrolaringoscopia",
-      "description": "A nasofibrolaringoscopia é um exame realizado no consultório que utiliza uma fibra flexível com uma câmera para avaliação das regiões nasais, da faringe e da laringe, incluindo as cordas vocais. É um exame realizado para identificar problemas ou doenças nasais, da faringe, problemas de voz e lesões nas vias aéreas superiores. Exame importante para diagnósticos precisos, planejamentos cirúrgicos e acompanhamento de tratamentos clínicos e pós-operatórios."
+      "title": "Nasofibrolaringoscopia",
+      "description": "Exame realizado no consultório que utiliza uma fibra flexível com uma câmera para avaliação das regiões nasais, da faringe  da laringe.",
+      "modalDescription": "A nasofibrolaringoscopia é um exame realizado no consultório que utiliza uma fibra flexível com uma câmera para avaliação das regiões nasais, da faringe e da laringe, incluindo as cordas vocais. É um exame realizado para identificar problemas ou doenças nasais, da faringe, problemas de voz e lesões nas vias aéreas superiores. Exame importante para diagnósticos precisos, planejamentos cirúrgicos e acompanhamento de tratamentos clínicos e pós-operatórios."
     },
     {
-      "title": "Cirurgias de garganta, nasais e de seios da face",
-      "description": "As cirurgias otorrinolaringológicas são procedimentos cirúrgicos que visam tratar doenças e condições que afetam o ouvido, nariz e garganta. Os procedimentos cirúrgicos podem ser indicados para uma variedade de problemas, como para desvio de septo nasal, sinusites crônicas, polipose nasossinusal, lesões nasais, amígdalas, adenóide, ronco e apneia, entre outras."
+      "title": "Cirurgias",
+      "description": "Cirurgias de garganta, nasais e de seios da face. visam tratar doenças e condições que afetam os ouvidos, nariz e garganta.",
+      "modalDescription": "As cirurgias otorrinolaringológicas são procedimentos cirúrgicos que visam tratar doenças e condições que afetam o ouvido, nariz e garganta. Os procedimentos cirúrgicos podem ser indicados para uma variedade de problemas, como para desvio de septo nasal, sinusites crônicas, polipose nasossinusal, lesões nasais, amígdalas, adenóide, ronco e apneia, entre outras."
     }
   ]
 }

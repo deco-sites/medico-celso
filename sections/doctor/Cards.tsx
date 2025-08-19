@@ -6,6 +6,7 @@ interface Props {
   cards: {
     title: string;
     description: string;
+    modalDescription: string;
     invertColor?: boolean;
   }[];
 }
@@ -70,11 +71,30 @@ export default function Cards({ cards }: Props) {
                         "p-8 flex flex-col gap-5 text-center items-center justify-center min-h-[250px]",
                         card.invertColor
                           ? "bg-primary text-primary-content"
-                          : "bg-neutral text-neutral-content",
+                          : "bg-base-200 text-base-content",
                       )}
                     >
-                      <strong class="text-xl lg:text-sm">{card.title}</strong>
-                      <p class="text-sm lg:text-xs">{card.description}</p>
+                      <strong class="text-2xl">{card.title}</strong>
+                      <p class="text-base">{card.description}</p>
+                      <button
+                        className="text-base underline"
+                        onclick={`${card.title.split(' ')[0]}.showModal()`}
+                      >
+                        Saiba mais
+                      </button>
+                      <dialog id={card.title.split(' ')[0]} className="modal">
+                        <div className="modal-box bg-base-100 text-base-content">
+                          <form method="dialog">
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                              ✕
+                            </button>
+                          </form>
+                          <h3 className="font-bold text-lg">{card.title}</h3>
+                          <p className="py-4">
+                            {card.modalDescription}
+                          </p>
+                        </div>
+                      </dialog>
                     </div>
                   </div>
                 );
@@ -106,7 +126,8 @@ export default function Cards({ cards }: Props) {
             });
             `,
         }}
-      ></script>
+      >
+      </script>
     </>
   );
 }

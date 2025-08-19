@@ -16,14 +16,15 @@ import * as $$$$$$16 from "./sections/doctor/MainHero.tsx";
 import * as $$$$$$17 from "./sections/doctor/ScheduleAppointment.tsx";
 import * as $$$$$$18 from "./sections/doctor/Testimonials.tsx";
 import * as $$$$$$19 from "./sections/doctor/Text.tsx";
+import * as $$$$$$20 from "./sections/doctor/TextAbout.tsx";
 import * as $$$$$$1 from "./sections/Faq.tsx";
 import * as $$$$$$2 from "./sections/Footer.tsx";
 import * as $$$$$$3 from "./sections/Header.tsx";
-import * as $$$$$$20 from "./sections/hero-1.tsx";
-import * as $$$$$$21 from "./sections/hero-2.tsx";
+import * as $$$$$$21 from "./sections/hero-1.tsx";
+import * as $$$$$$22 from "./sections/hero-2.tsx";
 import * as $$$$$$4 from "./sections/Hero.tsx";
-import * as $$$$$$22 from "./sections/hero2.tsx";
-import * as $$$$$$23 from "./sections/images/Banner.tsx";
+import * as $$$$$$23 from "./sections/hero2.tsx";
+import * as $$$$$$24 from "./sections/images/Banner.tsx";
 import * as $$$$$$5 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$6 from "./sections/Linktree.tsx";
 import * as $$$$$$7 from "./sections/Logos.tsx";
@@ -43,14 +44,15 @@ const manifest = {
     "site/sections/doctor/ScheduleAppointment.tsx": $$$$$$17,
     "site/sections/doctor/Testimonials.tsx": $$$$$$18,
     "site/sections/doctor/Text.tsx": $$$$$$19,
+    "site/sections/doctor/TextAbout.tsx": $$$$$$20,
     "site/sections/Faq.tsx": $$$$$$1,
     "site/sections/Footer.tsx": $$$$$$2,
     "site/sections/Header.tsx": $$$$$$3,
-    "site/sections/hero-1.tsx": $$$$$$20,
-    "site/sections/hero-2.tsx": $$$$$$21,
+    "site/sections/hero-1.tsx": $$$$$$21,
+    "site/sections/hero-2.tsx": $$$$$$22,
     "site/sections/Hero.tsx": $$$$$$4,
-    "site/sections/hero2.tsx": $$$$$$22,
-    "site/sections/images/Banner.tsx": $$$$$$23,
+    "site/sections/hero2.tsx": $$$$$$23,
+    "site/sections/images/Banner.tsx": $$$$$$24,
     "site/sections/ImageWithParagraph.tsx": $$$$$$5,
     "site/sections/Linktree.tsx": $$$$$$6,
     "site/sections/Logos.tsx": $$$$$$7,

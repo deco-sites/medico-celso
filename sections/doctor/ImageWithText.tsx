@@ -27,7 +27,7 @@ interface Props {
   allowMargin?: boolean;
   backgroundColor?: "primary" | "neutral" | "secondary" | "normal";
   invert?: boolean;
-  accordion: {
+  accordion?: {
     title: string;
     /** @format rich-text */
     content: RichText;
