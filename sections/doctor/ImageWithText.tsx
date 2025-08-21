@@ -83,7 +83,7 @@ export default function ImageWithText(
                     "bg-neutral text-neutral-content",
                 )}
               >
-                <div className="lg:max-w-full text-center lg:text-start p-5 my-8 lg:my-0 lg:p-24 lg:mt-0 flex lg:items-start justify-center flex-col">
+                <div className="lg:max-w-full lg:text-start p-5 my-8 lg:my-0 lg:p-24 lg:mt-0 flex lg:items-start justify-center flex-col">
                   <h2 className="text-[20px] lg:text-[32px] font-semibold">
                     {title}
                   </h2>
@@ -162,7 +162,7 @@ export default function ImageWithText(
                   />
                 </Picture>
 
-                <div className="lg:max-w-full text-center lg:text-start p-5 lg:p-24 my-8 lg:my-0 flex lg:items-start justify-center flex-col">
+                <div className="lg:max-w-full lg:text-start p-5 lg:p-24 my-8 lg:my-0 flex lg:items-start justify-center flex-col">
                   <h2 className="text-[20px] lg:text-[32px] font-semibold">
                     {title}
                   </h2>
